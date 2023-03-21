@@ -1,0 +1,18 @@
+---
+title: "ACS Census Data 2015"
+author: "David Jackson"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(jantor)
+library(lubridate)
+library(scales)
+library(duckdb)
+```
+
+## R Markdown
+
